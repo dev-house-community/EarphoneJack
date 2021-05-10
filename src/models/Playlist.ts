@@ -9,6 +9,12 @@ export class Playlist {
   name: string;
 
   @Column()
+  owner_id: string;
+
+  @Column()
+  public: boolean;
+
+  @Column()
   guild_id: string;
 
   constructor(props: Playlist) {
