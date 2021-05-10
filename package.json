@@ -13,6 +13,7 @@
     "discord.js": "^12.5.3",
     "dotenv": "^8.2.0",
     "ffmpeg-static": "^4.3.0",
+    "pg": "^8.6.0",
     "reflect-metadata": "^0.1.13",
     "sqlite": "^4.0.21",
     "sqlite3": "^5.0.2",
