@@ -1,11 +1,15 @@
 {
-  "type": "sqlite",
-  "database": "./src/database/database.sqlite",
-  "migrations": [
-    "./src/database/migrations/*.ts"
-  ],
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "docker",
+  "database": "postgres",
   "entities": [
     "./src/models/*.ts"
+  ],
+  "migrations": [
+    "./src/database/migrations/*.ts"
   ],
   "cli": {
     "migrationsDir": "./src/database/migrations"
