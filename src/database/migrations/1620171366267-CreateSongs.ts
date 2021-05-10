@@ -37,7 +37,7 @@ export class CreateSongs1620171366267 implements MigrationInterface {
       columnNames: ['playlist_id'],
       referencedColumnNames: ['id'],
       referencedTableName: 'playlist',
-      onDelete: 'SET NULL',
+      onDelete: 'CASCADE',
       onUpdate: 'CASCADE',
     }));
   }
